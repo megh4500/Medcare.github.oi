@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up</title>
+    <link rel="stylesheet" href="css/signup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+    <div class="container">
+            <div class="signup-signup">
+                <form action="signinpage.html" class="sign-up-form">
+                    <h2 class="title">Sign up</h2>
+                    <div class="perinfo">
+                        <label>Personal Info</label></i>
+                        <div class="input-field">
+                            <i class="fas fa-user"></i>
+                            <input type="text" placeholder="User-First-Name" required>
+                        </div>
+                        <div class="input-field">
+                            <i class="fas fa-user"></i>
+                            <input type="text" placeholder="User-Last-Name" required>
+                        </div>
+                        <div class="input-field">
+                            <i class="fas fa-envelope"></i>
+                            <input type="email" placeholder="EmailId" required>
+                        </div>
+                        <div class="input-field-textarea">
+                            <i class="fas fa-map"></i>
+                            <textarea name="address" id="adrs" rows="4" placeholder="Enter the your address" required></textarea>
+                        </div>
+                        <div class="input-field">
+                            <i class="fas fa-phone"></i>
+                            <input type="number" placeholder="Contact" pattern="[0-9]{10}">
+                        </div>
+                    </div>
+                    <div class="edu">
+                        <label>Education and Work experience:</label>
+                        <div class="input-field">
+                            <i class="fas fa-book"></i>
+                            <input type="text" placeholder="Degreename" required>
+                        </div>
+                        <div class="input-field">
+                            <i class="fas fa-stethoscope"></i>
+                            <input type="text" placeholder="Speciality" required>
+                        </div>
+                        <div class="input-field">
+                            <i class="fas fa-calendar"></i>
+                            <select name="experience" id="exp" class="exp">
+                            <option value="1 year">1 year</option>
+                            <option value="2 year">2 year</option>
+                            <option value="3 year">3 year</option>
+                            <option value="4 year">4 year</option>
+                            <option value="5 year">5 year and More</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="sec">
+                        <label>Security:</label>
+                        <div class="input-field">
+                            <i class="fas fa-lock"></i>
+                            <input type="password" placeholder="Password" required>
+                        </div>
+                        <div class="input-field">
+                            <i class="fas fa-lock"></i>
+                            <input type="password" placeholder="Confirm Password" required>
+                        </div>
+                    </div>
+                    <div class="btn">
+                        <input type="submit" class="btnsolid" value="Sign-up">
+                    </div>
+                </form>
+                <div class="redlog">
+                    <h3>Don't want to sign up than click here <a href="index.html">Click here</a></h3>
+                </div>
+            </div>
+    </div>
+</body>
+</html>
